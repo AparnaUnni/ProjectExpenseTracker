@@ -1,4 +1,4 @@
-# Project Expense Tracker 🚀
+# Project Expense Tracker 
 
 Fullstack web application to manage project budgets and track expenses. Built with **Next.js 14**, **Node.js/Express**, **PostgreSQL**, and **Tailwind CSS**.
 
@@ -8,22 +8,22 @@ Project Listing Page
 
 
 
-## ✨ Features
+##  Features
 
-- ✅ **Project Management**: Create, view, expand projects
-- ✅ **Budget Tracking**: Real-time remaining budget calculation
-- ✅ **Expense Management**: Add, edit, delete expenses per project
-- ✅ **Responsive Design**: Works on desktop + mobile
-- ✅ **Automatic calculations**: Total expenses, remaining budget
+-  **Project Management**: Create, view, expand projects
+-  **Budget Tracking**: Real-time remaining budget calculation
+-  **Expense Management**: Add, edit, delete expenses per project
+-  **Responsive Design**: Works on desktop + mobile
+-  **Automatic calculations**: Total expenses, remaining budget
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Layer | Technology |
 |-------|------------|
 | **Frontend** | Next.js 14, React 18, Tailwind CSS |
 | **Backend** | Node.js, Express.js |
 | **Database** | PostgreSQL |
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -32,13 +32,13 @@ Before you begin, ensure you have the following installed:
 
 
 
-2. Database Setup
+## 2. Database Setup
 Start PostgreSQL and create the database:
 
-## Create database
+### Create database
 CREATE DATABASE project_expense_db;
 
-## Database Schema
+### Database Schema
 
 #### Create projects table
 CREATE TABLE projects (
@@ -89,7 +89,7 @@ cd frontend
 npm install lucide-react
 npm run dev # http://localhost:3000
 
-## 📸 Screenshots
+##  Screenshots
 Project Listing Page
 ![Project Listing](./screenshots/ProjectListingPage.png)
 Main page showing all projects with budget information
@@ -110,7 +110,7 @@ Delete/Edit Expense Form
 ![Edit/Delete Form](./screenshots/EditDeleteActions.png)
 Edit/Delete action on expense details
 
-## ⚙️ Assumptions Made
+##  Assumptions Made
 - **Local Development**: PostgreSQL running locally on port 5432
 - **AED Currency**: UAE-based (Dubai location)
 - **No Authentication**: Admin-only access assumed
