@@ -1,9 +1,9 @@
 # Project Expense Tracker 🚀
 
-Fullstack web application to manage project budgets and track expenses. Built with **Next.js 14**, **Node.js/Express**, **PostgreSQL**, and **Tailwind CSS**.\
+Fullstack web application to manage project budgets and track expenses. Built with **Next.js 14**, **Node.js/Express**, **PostgreSQL**, and **Tailwind CSS**.
 
 Project Listing Page
-[![Projects Screen](./screenshots/ProjectListingPage.png)](# project-listing)
+![Projects Screen](./screenshots/ProjectListingPage.png)
 
 
 
@@ -91,41 +91,41 @@ npm run dev # http://localhost:3000
 
 ## 📸 Screenshots
 Project Listing Page
-(./screenshots/ProjectListingPage.png)
+![Project Listing](./screenshots/ProjectListingPage.png)
 Main page showing all projects with budget information
 
 Add Project Modal
-(./screenshots/AddProjectForm.png)
+![Project Modal](./screenshots/AddProjectForm.png)
 Modal for creating a new project
 
 Expanded Project Section
-(./screenshots/ExpenseList.png)
+![Project Section](./screenshots/ExpenseList.png)
 Showing project details and expense list
 
 Add Expense Form
-(./screenshots/AddProjectForm.png)
+![Expense Form](./screenshots/AddProjectForm.png)
 Form for adding new expense details
 
 Delete/Edit Expense Form
-(./screenshots/EditDeleteActions.png)
+![Edit/Delete Form](./screenshots/EditDeleteActions.png)
 Edit/Delete action on expense details
 
 ## ⚙️ Assumptions Made
-Local Development: PostgreSQL running locally on port 5432
+- **Local Development**: PostgreSQL running locally on port 5432
 
-AED Currency: UAE-based (Dubai location)
+- **AED Currency**: UAE-based (Dubai location)
 
-No Authentication: Admin-only access assumed
+- **No Authentication**: Admin-only access assumed
 
-Single User: No multi-tenancy - all users see the same projects and expenses
+- **Single User** - all users see the same projects and expenses
 
-Categories: Expense categories are limited to three types:
+- **Categories**: Expense categories are limited to three types:
 
 Material
 Labor
 Other
 
-Basic validation: Frontend + Backend field validation
+
 
 ## Future Improvements
  - **User Authentication**: Add login/signup with JWT tokens
