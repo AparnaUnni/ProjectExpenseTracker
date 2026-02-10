@@ -48,7 +48,7 @@ CREATE TABLE projects (
   estimated_budget NUMERIC(12,2) NOT NULL CHECK (estimated_budget >= 0),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-#### Create expense table**
+#### Create expense table
 CREATE TABLE expenses (
   id SERIAL PRIMARY KEY,
   project_id INTEGER NOT NULL REFERENCES projects(id) ON DELETE CASCADE,
@@ -103,7 +103,7 @@ Expanded Project Section
 Showing project details and expense list
 
 Add Expense Form
-![Expense Form](./screenshots/AddProjectForm.png)
+![Expense Form](./screenshots/AddExpenseForm.png)
 Form for adding new expense details
 
 Delete/Edit Expense Form
@@ -112,17 +112,13 @@ Edit/Delete action on expense details
 
 ## ⚙️ Assumptions Made
 - **Local Development**: PostgreSQL running locally on port 5432
-
 - **AED Currency**: UAE-based (Dubai location)
-
 - **No Authentication**: Admin-only access assumed
-
 - **Single User** - all users see the same projects and expenses
-
 - **Categories**: Expense categories are limited to three types:
 
-Material
-Labor
+Material,
+Labor,
 Other
 
 
